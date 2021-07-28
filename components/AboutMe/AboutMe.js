@@ -35,10 +35,10 @@ class AboutMe extends React.Component {
           </p>
         </div>
         <div className="my-links">
-          <a href="https://github.com/jonnyboydev" id="github-link">
+          <a href="https://github.com/refactor-this" id="github-link">
             <FiGithub />
           </a>
-          <a href="mailto:me@jonnyboy.dev" id="email-link">
+          <a href="mailto:contact@refactorthis.dev" id="email-link">
             <FiAtSign />
           </a>
           <a
@@ -47,7 +47,7 @@ class AboutMe extends React.Component {
           >
             <FiLinkedin />
           </a>
-          <a href="https://twitter.com/jonnyboydev" id="twitter-link">
+          <a href="https://twitter.com/refactor_this" id="twitter-link">
             <FiTwitter />
           </a>
         </div>
