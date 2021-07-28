@@ -13,12 +13,47 @@ import {
   DiMongodb,
   DiWordpress,
 } from "react-icons/di";
-import { SiRedux, SiNextDotJs, SiTailwindcss, SiBitcoin } from "react-icons/si";
+import { SiRedux, SiNextDotJs, SiTailwindcss, SiBitcoin, SiShopify } from "react-icons/si";
 
 const projects = [
   {
+    name: "Sport Formula 99",
+    repo:"",
+    livelink: "https://sportformula.com/",
+    description:
+        "Sport Formula is an ecommerce site specializing in sport and everyday nutrition.",
+    secondarydescription:
+        "For this project I went through an entire theme rebuild. The client wanted their site to be much faster, I" +
+        " was able to bring them from a 4.5s load time to 2s load time, with much less page requests. I implemented" +
+        " best SEO practices, lazyloading, and used webpack to code split much of the theme.",
+    image: "/images/sportformula.png",
+    stack: () => (
+        <span className="card-stack">
+            <SiShopify />
+      </span>
+    ),
+  },
+  {
+    name: "Biohacking Theme",
+    repo:"",
+    livelink: "",
+    description:
+        "Biohacking is a theme I developed that was commissioned by an agency. The focus was speed and" +
+        " pixel-perfection to the design.",
+    secondarydescription:
+        "This project was the first where I needed to modify webpack in order to produce a super performant site by" +
+        " code-splitting any imports and css. I was able to make the theme only load what was need on each page," +
+        " compared to the standard Shopify monolithic theme where everything loads in at once.",
+    image: "/images/biohacking.png",
+    stack: () => (
+        <span className="card-stack">
+            <SiShopify />
+      </span>
+    ),
+  },
+  {
     name: "NextTicker",
-    repo: "https://github.com/jonnyboydev/NextTicker",
+    repo: "https://github.com/refactor-this/NextTicker",
     livelink: "https://next-ticker.binkeroni.vercel.app/",
     description:
       "NextTicker is a small project aimed at showing the speed and efficiency of NextJS with live 3rd party data requests.",
@@ -80,7 +115,7 @@ const projects = [
   },
   {
     name: "NVNTORY",
-    repo: "https://github.com/jonnyboydev/nvntory-client",
+    repo: "https://github.com/refactor-this/nvntory-client",
     livelink: "https://nvntory-client.binkeroni.vercel.app/",
     description:
       "NVNTORY is an alternative to expensive inventory management systems that seems to not listen to their customers. We continue to update the app with new features in order to compete with larger systems.",
@@ -95,8 +130,8 @@ const projects = [
   },
   {
     name: "Javascript Method Quiz App",
-    repo: "https://jonnyboydev.github.io/JS-Method-Quiz-App/",
-    livelink: "https://github.com/jonnyboydev/JS-Method-Quiz-App",
+    repo: "https://refactor-this.github.io/JS-Method-Quiz-App/",
+    livelink: "https://github.com/refactor-this/JS-Method-Quiz-App",
     description:
       'A quiz app that was designed "react-fully" with dynamic HTML based on the state of the web app. The questions in the app can be updated and all data is dynamically rendered when some button is clicked.',
     secondarydescription:
@@ -117,7 +152,7 @@ const links = [
   },
   {
     name: "Github",
-    link: "https://github.com/jonnyboydev",
+    link: "https://github.com/refactor-this",
   },
   {
     name: "Contact",
