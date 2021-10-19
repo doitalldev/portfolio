@@ -33,5 +33,11 @@ yarn-error.log*
 # vercel
 .vercel
 
-.idea/
-/.idea/
+.idea/.gitignore
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/portfolio.iml
+.idea/vcs.xml
+yarn.lock
+package-lock.json

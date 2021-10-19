@@ -1,13 +1,7 @@
-import "../styles/globals.scss";
+import '../styles/global.css'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-  <style jsx global>{`
-    body {
-    margin: 0px,
-      background: "#111";
-    }
-  `}</style>;
+  return <Component {...pageProps} />
 }
 
-export default MyApp;
+export default MyApp
