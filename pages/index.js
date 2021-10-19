@@ -26,16 +26,6 @@ class App extends React.Component {
   render() {
     return (
       <>
-        {/* <style JSX>{` */}
-        {/* .html { */}
-        {/* margin: 0; */}
-        {/* padding: 0; */}
-        {/* background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), */}
-        {/* url("/images/background-grey.png"); */}
-        {/* background-size: cover; */}
-        {/* background-repeat: repeat-x; */}
-        {/* } */}
-        {/* `}</style> */}
         <div
           style={{
             margin: "0",

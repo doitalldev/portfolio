@@ -34,6 +34,7 @@ class AboutMe extends React.Component {
             more languages including Java and GoLang.
           </p>
         </div>
+      <a download href="resume.pdf">Download Resume</a>
         <div className="my-links">
           <a href="https://github.com/refactor-this" id="github-link">
             <FiGithub />
